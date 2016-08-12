@@ -2,7 +2,12 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+# The first function, makeVector creates a special "matrix", 
+# which is really a matrix containing a function to
+# 1.	set the value of the matrix
+# 2.	get the value of the matrix
+# 3.	set the value of the inverse of square 
+# 4.	get the value of the inverse of square
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
