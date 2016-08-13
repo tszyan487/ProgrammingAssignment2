@@ -33,7 +33,7 @@ cacheSolve <- function(x) {
     return(m)
   }
   data <- x$get()
-  m <- sqrt(data)
+  m <- data
   x$setsqrt(m)
   m
 }
